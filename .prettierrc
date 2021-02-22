@@ -1,11 +1,12 @@
 {
   "trailingComma": "es5",
+  "jsxBracketSameLine": true,
   "tabWidth": 2,
   "semi": true,
   "singleQuote": false,
   "overrides": [
     {
-      "files": "*.js",
+      "files": ["*.js", "*.jsx"],
       "options": {
         "singleQuote": true
       }
